@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>nyan2.jpg</file>
+        <file>grumpy</file>
+        <file>charlie.jpg</file>
+        <file>dog.jpg</file>
+        <file>Deedee.gif</file>
+        <file>mouse.jpg</file>
+        <file>charlielife.jpg</file>
+        <file>catfood.jpg</file>
+        <file>scharlie.jpg</file>
+        <file>scatfood.jpg</file>
+        <file>smouse.jpg</file>
+        <file>grumpys.jpg</file>
+        <file>sdeedee.gif</file>
+        <file>sdog.jpg</file>
+        <file>snyan.jpg</file>
+        <file>grumpylife.jpg</file>
+        <file>nyancatlife.jpg</file>
+        <file>poptarts.jpg</file>
+        <file>yarns.jpg</file>
+        <file>poptart2s.jpg</file>
+    </qresource>
+</RCC>

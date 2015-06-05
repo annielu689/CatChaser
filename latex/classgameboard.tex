@@ -1,0 +1,140 @@
+\hypertarget{classgameboard}{}\section{gameboard Class Reference}
+\label{classgameboard}\index{gameboard@{gameboard}}
+Inheritance diagram for gameboard\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgameboard}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgameboard_a68238b5385a056e5708be1f9918ef07d}{}void \hyperlink{classgameboard_a68238b5385a056e5708be1f9918ef07d}{update\+Enemy} ()\label{classgameboard_a68238b5385a056e5708be1f9918ef07d}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classgameboard_a68238b5385a056e5708be1f9918ef07d}{gameboard\+::update\+Enemy} updates the movement of the enemies \end{DoxyCompactList}\item 
+\hypertarget{classgameboard_ab509115a3bc5d8c0fa11ced0abd293ed}{}void \hyperlink{classgameboard_ab509115a3bc5d8c0fa11ced0abd293ed}{cat\+Caught} ()\label{classgameboard_ab509115a3bc5d8c0fa11ced0abd293ed}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classgameboard_ab509115a3bc5d8c0fa11ced0abd293ed}{gameboard\+::cat\+Caught} if cat is caught by an enemy \end{DoxyCompactList}\item 
+\hypertarget{classgameboard_a1c63304bc284a0d8e58934d4370b16ee}{}void \hyperlink{classgameboard_a1c63304bc284a0d8e58934d4370b16ee}{advance\+Level} ()\label{classgameboard_a1c63304bc284a0d8e58934d4370b16ee}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classgameboard_a1c63304bc284a0d8e58934d4370b16ee}{gameboard\+::advance\+Level} advances to the next level \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgameboard_a7bed0743b0684228902113bd840b79ba}{}void {\bfseries game\+\_\+over} ()\label{classgameboard_a7bed0743b0684228902113bd840b79ba}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classgameboard_a45936725b978fc6548d0ad9e62b70d95}{gameboard} (Q\+Widget $\ast$parent=0, Q\+String cat=\char`\"{}charlie\char`\"{}, Q\+String enemy=\char`\"{}mouse\char`\"{})
+\item 
+\hypertarget{classgameboard_ac10e30eecd45bb004a592f97bd0e398f}{}\hyperlink{classgameboard_ac10e30eecd45bb004a592f97bd0e398f}{$\sim$gameboard} ()\label{classgameboard_ac10e30eecd45bb004a592f97bd0e398f}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classgameboard_ac10e30eecd45bb004a592f97bd0e398f}{gameboard\+::$\sim$gameboard} destructor \end{DoxyCompactList}\item 
+void \hyperlink{classgameboard_a7c2f3cab761a2d642a0f0fb2b430a21d}{paint\+Event} (Q\+Paint\+Event $\ast$e)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classgameboard_a7c2f3cab761a2d642a0f0fb2b430a21d}{gameboard\+::paint\+Event} paints the cat and enemies on board \end{DoxyCompactList}\item 
+void \hyperlink{classgameboard_a426162fac3b314115067be644865cdaf}{key\+Press\+Event} (Q\+Key\+Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classgameboard_a426162fac3b314115067be644865cdaf}{gameboard\+::key\+Press\+Event} defines what happens when the player presses certain keys \end{DoxyCompactList}\item 
+void \hyperlink{classgameboard_a62459809a28e3835f62a5311f13e22eb}{show\+Event} (Q\+Show\+Event $\ast$e)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classgameboard_a62459809a28e3835f62a5311f13e22eb}{gameboard\+::show\+Event} shows the gameboard event \end{DoxyCompactList}\item 
+void \hyperlink{classgameboard_acd4d2cbede5463c4a8c42962766ffe87}{update\+Cat} (int px, int py, int nx, int ny)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classgameboard_acd4d2cbede5463c4a8c42962766ffe87}{gameboard\+::update\+Cat} updates the cat position \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classgameboard_a45936725b978fc6548d0ad9e62b70d95}{}\index{gameboard@{gameboard}!gameboard@{gameboard}}
+\index{gameboard@{gameboard}!gameboard@{gameboard}}
+\subsubsection[{gameboard}]{\setlength{\rightskip}{0pt plus 5cm}gameboard\+::gameboard (
+\begin{DoxyParamCaption}
+\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0}, }
+\item[{Q\+String}]{cat = {\ttfamily \char`\"{}charlie\char`\"{}}, }
+\item[{Q\+String}]{enemy = {\ttfamily \char`\"{}mouse\char`\"{}}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}\label{classgameboard_a45936725b978fc6548d0ad9e62b70d95}
+Gameboard constructor that sets the board with the cat and enemy that the player chooses C\+O\+D\+E B\+E\+L\+O\+W S\+E\+T\+S T\+H\+E G\+A\+M\+E\+B\+O\+A\+R\+D
+
+C\+O\+D\+E B\+E\+L\+O\+W C\+O\+M\+B\+I\+N\+E\+S T\+O\+P B\+A\+R W\+I\+T\+H G\+A\+M\+E\+B\+O\+A\+R\+D
+
+C\+O\+D\+E B\+E\+L\+O\+W S\+E\+T\+S T\+H\+E E\+N\+E\+M\+Y N\+U\+M\+B\+E\+R A\+N\+D T\+H\+E\+I\+R R\+A\+N\+D\+O\+M L\+O\+C\+A\+T\+I\+O\+N 
+
+\subsection{Member Function Documentation}
+\hypertarget{classgameboard_a426162fac3b314115067be644865cdaf}{}\index{gameboard@{gameboard}!key\+Press\+Event@{key\+Press\+Event}}
+\index{key\+Press\+Event@{key\+Press\+Event}!gameboard@{gameboard}}
+\subsubsection[{key\+Press\+Event}]{\setlength{\rightskip}{0pt plus 5cm}void gameboard\+::key\+Press\+Event (
+\begin{DoxyParamCaption}
+\item[{Q\+Key\+Event $\ast$}]{event}
+\end{DoxyParamCaption}
+)}\label{classgameboard_a426162fac3b314115067be644865cdaf}
+
+
+\hyperlink{classgameboard_a426162fac3b314115067be644865cdaf}{gameboard\+::key\+Press\+Event} defines what happens when the player presses certain keys 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & is the Q\+Key\+Event pointer object \\
+\hline
+\end{DoxyParams}
+\hypertarget{classgameboard_a7c2f3cab761a2d642a0f0fb2b430a21d}{}\index{gameboard@{gameboard}!paint\+Event@{paint\+Event}}
+\index{paint\+Event@{paint\+Event}!gameboard@{gameboard}}
+\subsubsection[{paint\+Event}]{\setlength{\rightskip}{0pt plus 5cm}void gameboard\+::paint\+Event (
+\begin{DoxyParamCaption}
+\item[{Q\+Paint\+Event $\ast$}]{e}
+\end{DoxyParamCaption}
+)}\label{classgameboard_a7c2f3cab761a2d642a0f0fb2b430a21d}
+
+
+\hyperlink{classgameboard_a7c2f3cab761a2d642a0f0fb2b430a21d}{gameboard\+::paint\+Event} paints the cat and enemies on board 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & is the Q\+Paint\+Event pointer object \\
+\hline
+\end{DoxyParams}
+\hypertarget{classgameboard_a62459809a28e3835f62a5311f13e22eb}{}\index{gameboard@{gameboard}!show\+Event@{show\+Event}}
+\index{show\+Event@{show\+Event}!gameboard@{gameboard}}
+\subsubsection[{show\+Event}]{\setlength{\rightskip}{0pt plus 5cm}void gameboard\+::show\+Event (
+\begin{DoxyParamCaption}
+\item[{Q\+Show\+Event $\ast$}]{e}
+\end{DoxyParamCaption}
+)}\label{classgameboard_a62459809a28e3835f62a5311f13e22eb}
+
+
+\hyperlink{classgameboard_a62459809a28e3835f62a5311f13e22eb}{gameboard\+::show\+Event} shows the gameboard event 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & is the Q\+Show\+Event pointer object \\
+\hline
+\end{DoxyParams}
+\hypertarget{classgameboard_acd4d2cbede5463c4a8c42962766ffe87}{}\index{gameboard@{gameboard}!update\+Cat@{update\+Cat}}
+\index{update\+Cat@{update\+Cat}!gameboard@{gameboard}}
+\subsubsection[{update\+Cat}]{\setlength{\rightskip}{0pt plus 5cm}void gameboard\+::update\+Cat (
+\begin{DoxyParamCaption}
+\item[{int}]{px, }
+\item[{int}]{py, }
+\item[{int}]{nx, }
+\item[{int}]{ny}
+\end{DoxyParamCaption}
+)}\label{classgameboard_acd4d2cbede5463c4a8c42962766ffe87}
+
+
+\hyperlink{classgameboard_acd4d2cbede5463c4a8c42962766ffe87}{gameboard\+::update\+Cat} updates the cat position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em px} & is the current x coordinate of cat \\
+\hline
+{\em py} & is the current y coordinate of cat \\
+\hline
+{\em nx} & is new x coordinate of cat \\
+\hline
+{\em ny} & is new y coordinate of cat \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+gameboard.\+h\item 
+gameboard.\+cpp\end{DoxyCompactItemize}

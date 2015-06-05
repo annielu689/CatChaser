@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>instruction</class>
+ <widget class="QWidget" name="instruction">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>594</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>281</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAT CHASER GAME PLAY INSTRUCTION</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>100</y>
+     <width>431</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Charlie, Grumpy and Nyan Cat all live in the same house, and their favorite activities include sleeping, eating, and playing with yarns. However, their daily fun is always interrupted by three ignorant species in the house: Jerry the Mouse, Edgar the Pug, and DeeDee the human. In order for them to attain their peace, they need to avoid the three enemies in their daily lives.</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>230</y>
+     <width>461</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OBJECTIVE: Get all the items without being caught by your enemy! Use the arrow keys to move the cat. The number of enemies and their speed will increase as the level increases.</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
